@@ -1,0 +1,27 @@
+version: '2'
+services:
+  mongorepl1:
+    container_name: mongorepl1
+    image: mongo
+    command: mongod --replSet replServer --dbpath /data/db --port 27017
+    environment:
+      TERM: xterm
+    volumes:
+      - ./scripts:/scripts
+  mongorepl2:
+    container_name: mongorepl2
+    image: mongo
+    command: mongod --replSet replServer --dbpath /data/db --port 27017
+    environment:
+      TERM: xterm
+    volumes:
+      - ./scripts:/scripts
+  mongorepl3:
+    container_name: mongorepl3
+    image: mongo
+    command: mongod --replSet replServer --dbpath /data/db --port 27017
+    environment:
+      TERM: xterm
+    volumes:
+      - ./scripts:/scripts
+    
