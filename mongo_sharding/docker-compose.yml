@@ -2,7 +2,7 @@ version: '2'
 services:
   mongoshard1:
     container_name: mongoshard1
-    image: mongo
+    image: mongo:latest
     command: mongod --shardsvr --dbpath /data/db --port 27017
     environment:
       TERM: xterm
@@ -11,7 +11,7 @@ services:
       - ./scripts:/scripts
   mongoshard2:
     container_name: mongoshard2
-    image: mongo
+    image: mongo:latest
     command: mongod --shardsvr --dbpath /data/db --port 27017
     environment:
       TERM: xterm
@@ -20,7 +20,7 @@ services:
       - ./scripts:/scripts
   mongocfg1:
     container_name: mongocfg1
-    image: mongo
+    image: mongo:latest
     command: mongod --configsvr --replSet configServer --dbpath /data/db --port 27017
     environment:
       TERM: xterm
@@ -29,7 +29,7 @@ services:
       - ./scripts:/scripts
   mongocfg2:
     container_name: mongocfg2
-    image: mongo
+    image: mongo:latest
     command: mongod --configsvr --replSet configServer --dbpath /data/db --port 27017
     environment:
       TERM: xterm
@@ -38,13 +38,14 @@ services:
       - ./scripts:/scripts
   mongos1:
     container_name: mongos1
-    image: mongo
+    image: mongo:latest
     depends_on:
       - mongocfg1
       - mongocfg2
     volumes:
       - ./scripts:/scripts
-    command: mongos --configdb configServer/mongocfg1:27017,mongocfg2:27017 --port 27017
+    command: mongos --configdb configServer/mongocfg1:27017,mongocfg2:27017 --port 27017 --bind_ip_all
     ports:
-      - 27020:27017
-    
+      - 27017:27017
+    expose:
+      - 27017
