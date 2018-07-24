@@ -1,51 +1,64 @@
 version: '2'
 services:
-  mongoshard1:
-    container_name: mongoshard1
+  mongoConfig1:
+    container_name: mongoConfig1
     image: mongo:latest
-    command: mongod --shardsvr --dbpath /data/db --port 27017
+    command: mongod -f /mongodb/config/replConf1.config
     environment:
       TERM: xterm
     volumes:
-      #- ./mongo_cluster/data1:/data/db
+      - ./mongodb:/mongodb
       - ./scripts:/scripts
-  mongoshard2:
-    container_name: mongoshard2
+
+  mongoConfig2:
+    container_name: mongoConfig2
     image: mongo:latest
-    command: mongod --shardsvr --dbpath /data/db --port 27017
+    command: mongod -f /mongodb/config/replConf2.config
     environment:
       TERM: xterm
     volumes:
-      #- ./mongo_cluster/data2:/data/db
+      - ./mongodb:/mongodb
       - ./scripts:/scripts
-  mongocfg1:
-    container_name: mongocfg1
+
+  mongoShard1:
+    container_name: mongoShard1
     image: mongo:latest
-    command: mongod --configsvr --replSet configServer --dbpath /data/db --port 27017
+    command: mongod -f /mongodb/config/shardConf1.config
     environment:
       TERM: xterm
     volumes:
-      #- ./mongo_cluster/config1:/data/db
+      - ./mongodb:/mongodb
       - ./scripts:/scripts
-  mongocfg2:
-    container_name: mongocfg2
+
+  mongoShard2:
+    container_name: mongoShard2
     image: mongo:latest
-    command: mongod --configsvr --replSet configServer --dbpath /data/db --port 27017
+    command: mongod -f /mongodb/config/shardConf2.config
     environment:
       TERM: xterm
     volumes:
-      #- ./mongo_cluster/config2:/data/db
+      - ./mongodb:/mongodb
       - ./scripts:/scripts
-  mongos1:
-    container_name: mongos1
+
+  mongoShard3:
+    container_name: mongoShard3
     image: mongo:latest
+    command: mongod -f /mongodb/config/shardConf3.config
+    environment:
+      TERM: xterm
+    volumes:
+      - ./mongodb:/mongodb
+      - ./scripts:/scripts
+
+  router:
+    container_name: router 
+    image: mongo:latest
+    command: mongos -f /mongodb/config/router.config
+    volumes:
+      - ./mongodb:/mongodb
+      - ./scripts:/scripts
+    environment:
+      TERM: xterm
     depends_on:
-      - mongocfg1
-      - mongocfg2
-    volumes:
-      - ./scripts:/scripts
-    command: mongos --configdb configServer/mongocfg1:27017,mongocfg2:27017 --port 27017 --bind_ip_all
-    ports:
-      - 27017:27017
-    expose:
-      - 27017
+      - mongoConfig1
+      - mongoConfig2

@@ -1,0 +1,344 @@
+2018-07-18T03:15:17.786+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=77420997ef99
+2018-07-18T03:15:17.787+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T03:15:17.787+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T03:15:17.787+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T03:15:17.787+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T03:15:17.788+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T03:15:17.788+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T03:15:17.788+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T03:15:17.789+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T03:15:17.789+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T03:15:17.798+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T03:15:17.799+0000 I STORAGE  [initandlisten] exception in initAndListen: NonExistentPath: Data directory mongodb/data/db/shard_db_2 not found., terminating
+2018-07-18T03:15:17.799+0000 I CONTROL  [initandlisten] now exiting
+2018-07-18T03:15:17.800+0000 I CONTROL  [initandlisten] shutting down with code:100
+2018-07-18T03:19:03.097+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T03:19:03.113+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=77420997ef99
+2018-07-18T03:19:03.113+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T03:19:03.114+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T03:19:03.114+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T03:19:03.117+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T03:19:03.117+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T03:19:03.118+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T03:19:03.118+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T03:19:03.118+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T03:19:03.118+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T03:19:03.119+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T03:19:03.123+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=487M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T03:19:14.711+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-07-18T03:19:14.717+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-18T03:19:14.717+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-18T03:19:14.719+0000 I CONTROL  [signalProcessingThread] now exiting
+2018-07-18T03:19:14.719+0000 I CONTROL  [signalProcessingThread] shutting down with code:0
+2018-07-18T03:20:00.955+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T03:20:01.002+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=792a51ad43ee
+2018-07-18T03:20:01.002+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T03:20:01.002+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T03:20:01.003+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T03:20:01.003+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T03:20:01.003+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T03:20:01.003+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T03:20:01.003+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T03:20:01.004+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T03:20:01.004+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T03:20:01.004+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T03:20:01.008+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=487M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T03:21:01.185+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T03:21:01.227+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=173560917bbc
+2018-07-18T03:21:01.228+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T03:21:01.234+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T03:21:01.235+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T03:21:01.235+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T03:21:01.239+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T03:21:01.240+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T03:21:01.240+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T03:21:01.240+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T03:21:01.240+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T03:21:01.241+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T03:21:01.245+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=487M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T03:21:19.051+0000 I STORAGE  [initandlisten] WiredTiger message [1531884079:51350][1:0x7f3f33c78a00], txn-recover: Set global recovery timestamp: 0
+2018-07-18T03:21:19.102+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-18T03:21:19.228+0000 I CONTROL  [initandlisten] 
+2018-07-18T03:21:19.229+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-18T03:21:19.230+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-18T03:21:19.232+0000 I CONTROL  [initandlisten] 
+2018-07-18T03:21:19.243+0000 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: 7d38baa1-0271-48cd-95cb-a831497b1fa5
+2018-07-18T03:21:19.326+0000 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.6
+2018-07-18T03:21:19.378+0000 W SHARDING [initandlisten] Started with --shardsvr, but no shardIdentity document was found on disk in admin.system.version. This most likely means this server has not yet been added to a sharded cluster.
+2018-07-18T03:21:19.380+0000 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 3412a5ec-6c39-4c90-9eea-798765556cdc
+2018-07-18T03:21:19.474+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongodb/data/db/shard_db_2/diagnostic.data'
+2018-07-18T03:21:19.478+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-18T03:21:19.478+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T03:21:19.478+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T03:26:25.378+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T03:26:25.412+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=173560917bbc
+2018-07-18T03:26:25.423+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T03:26:25.429+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T03:26:25.430+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T03:26:25.430+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T03:26:25.430+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T03:26:25.431+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T03:26:25.431+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T03:26:25.432+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T03:26:25.432+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T03:26:25.433+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T03:26:25.440+0000 W STORAGE  [initandlisten] Detected unclean shutdown - mongodb/data/db/shard_db_2/mongod.lock is not empty.
+2018-07-18T03:26:25.445+0000 I STORAGE  [initandlisten] Detected data files in mongodb/data/db/shard_db_2 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-18T03:26:25.451+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-07-18T03:26:25.453+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=487M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T03:26:47.923+0000 I STORAGE  [initandlisten] WiredTiger message [1531884407:923122][1:0x7f0f46bf4a00], txn-recover: Main recovery loop: starting at 1/0
+2018-07-18T03:26:47.999+0000 I STORAGE  [initandlisten] WiredTiger message [1531884407:999190][1:0x7f0f46bf4a00], txn-recover: Recovering log 1 through 2
+2018-07-18T03:26:48.838+0000 I STORAGE  [initandlisten] WiredTiger message [1531884408:838590][1:0x7f0f46bf4a00], file:index-3-4651289450004854151.wt, txn-recover: Recovering log 2 through 2
+2018-07-18T03:26:48.999+0000 I STORAGE  [initandlisten] WiredTiger message [1531884408:999625][1:0x7f0f46bf4a00], file:index-3-4651289450004854151.wt, txn-recover: Set global recovery timestamp: 0
+2018-07-18T03:26:49.099+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-18T03:26:49.175+0000 I CONTROL  [initandlisten] 
+2018-07-18T03:26:49.176+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-18T03:26:49.177+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-18T03:26:49.177+0000 I CONTROL  [initandlisten] 
+2018-07-18T03:26:49.219+0000 W SHARDING [initandlisten] Started with --shardsvr, but no shardIdentity document was found on disk in admin.system.version. This most likely means this server has not yet been added to a sharded cluster.
+2018-07-18T03:26:49.231+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongodb/data/db/shard_db_2/diagnostic.data'
+2018-07-18T03:26:49.236+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-18T03:26:49.237+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T03:26:49.239+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T03:26:57.727+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-07-18T03:26:57.727+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-18T03:26:57.732+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-18T03:26:57.734+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2018-07-18T03:26:57.737+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-07-18T03:26:57.750+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-07-18T03:26:57.873+0000 I STORAGE  [signalProcessingThread] Downgrading WiredTiger datafiles.
+2018-07-18T03:31:58.086+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T03:31:58.131+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=e564d8434b23
+2018-07-18T03:31:58.141+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T03:31:58.142+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T03:31:58.142+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T03:31:58.143+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T03:31:58.143+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T03:31:58.144+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T03:31:58.144+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T03:31:58.144+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T03:31:58.145+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T03:31:58.145+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T03:31:58.147+0000 W STORAGE  [initandlisten] Detected unclean shutdown - mongodb/data/db/shard_db_2/mongod.lock is not empty.
+2018-07-18T03:31:58.151+0000 I STORAGE  [initandlisten] Detected data files in mongodb/data/db/shard_db_2 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-18T03:31:58.153+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-07-18T03:31:58.155+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=487M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T03:32:18.590+0000 I STORAGE  [initandlisten] WiredTiger message [1531884738:590313][1:0x7f8e00439a00], txn-recover: Main recovery loop: starting at 2/5632
+2018-07-18T03:32:20.815+0000 I STORAGE  [initandlisten] WiredTiger message [1531884740:815713][1:0x7f8e00439a00], txn-recover: Recovering log 2 through 3
+2018-07-18T03:32:22.420+0000 I STORAGE  [initandlisten] WiredTiger message [1531884742:420041][1:0x7f8e00439a00], txn-recover: Recovering log 3 through 3
+2018-07-18T03:32:22.613+0000 I STORAGE  [initandlisten] WiredTiger message [1531884742:613913][1:0x7f8e00439a00], txn-recover: Set global recovery timestamp: 0
+2018-07-18T03:32:22.699+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-18T03:32:22.805+0000 I CONTROL  [initandlisten] 
+2018-07-18T03:32:22.808+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-18T03:32:22.808+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-18T03:32:22.809+0000 I CONTROL  [initandlisten] 
+2018-07-18T03:32:22.858+0000 W SHARDING [initandlisten] Started with --shardsvr, but no shardIdentity document was found on disk in admin.system.version. This most likely means this server has not yet been added to a sharded cluster.
+2018-07-18T03:32:22.866+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongodb/data/db/shard_db_2/diagnostic.data'
+2018-07-18T03:32:22.875+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-18T03:32:22.875+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T03:32:22.875+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T03:33:57.923+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-07-18T03:33:57.923+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-18T03:33:57.924+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-18T03:33:57.925+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2018-07-18T03:33:57.926+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-07-18T03:33:57.932+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-07-18T03:33:57.970+0000 I STORAGE  [signalProcessingThread] Downgrading WiredTiger datafiles.
+2018-07-18T03:35:24.837+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T03:35:24.897+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=b0b7778e98e2
+2018-07-18T03:35:24.899+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T03:35:24.899+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T03:35:24.907+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T03:35:24.916+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T03:35:24.917+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T03:35:24.917+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T03:35:24.918+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T03:35:24.918+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T03:35:24.919+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T03:35:24.919+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T03:35:24.922+0000 W STORAGE  [initandlisten] Detected unclean shutdown - mongodb/data/db/shard_db_2/mongod.lock is not empty.
+2018-07-18T03:35:24.926+0000 I STORAGE  [initandlisten] Detected data files in mongodb/data/db/shard_db_2 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-18T03:35:24.928+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-07-18T03:35:24.930+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=487M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T03:35:48.148+0000 I STORAGE  [initandlisten] WiredTiger message [1531884948:148925][1:0x7fb80489aa00], txn-recover: Main recovery loop: starting at 3/6784
+2018-07-18T03:35:50.199+0000 I STORAGE  [initandlisten] WiredTiger message [1531884950:199514][1:0x7fb80489aa00], txn-recover: Recovering log 3 through 4
+2018-07-18T03:35:51.697+0000 I STORAGE  [initandlisten] WiredTiger message [1531884951:697542][1:0x7fb80489aa00], txn-recover: Recovering log 4 through 4
+2018-07-18T03:35:51.859+0000 I STORAGE  [initandlisten] WiredTiger message [1531884951:859099][1:0x7fb80489aa00], txn-recover: Set global recovery timestamp: 0
+2018-07-18T03:35:51.903+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-18T03:35:51.954+0000 I CONTROL  [initandlisten] 
+2018-07-18T03:35:51.954+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-18T03:35:51.955+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-18T03:35:51.956+0000 I CONTROL  [initandlisten] 
+2018-07-18T03:35:51.989+0000 W SHARDING [initandlisten] Started with --shardsvr, but no shardIdentity document was found on disk in admin.system.version. This most likely means this server has not yet been added to a sharded cluster.
+2018-07-18T03:35:51.996+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongodb/data/db/shard_db_2/diagnostic.data'
+2018-07-18T03:35:52.002+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-18T03:35:52.005+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T03:35:52.005+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T03:36:09.378+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-07-18T03:36:09.379+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-18T03:36:09.381+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-18T03:36:09.382+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2018-07-18T03:36:09.383+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-07-18T03:36:09.400+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-07-18T03:36:09.487+0000 I STORAGE  [signalProcessingThread] Downgrading WiredTiger datafiles.
+2018-07-18T03:36:24.381+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T03:36:24.401+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=a33b3819ee09
+2018-07-18T03:36:24.425+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T03:36:24.426+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T03:36:24.426+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T03:36:24.427+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T03:36:24.428+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T03:36:24.428+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T03:36:24.429+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T03:36:24.429+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T03:36:24.430+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T03:36:24.433+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T03:36:24.436+0000 W STORAGE  [initandlisten] Detected unclean shutdown - mongodb/data/db/shard_db_2/mongod.lock is not empty.
+2018-07-18T03:36:24.439+0000 I STORAGE  [initandlisten] Detected data files in mongodb/data/db/shard_db_2 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-18T03:36:24.441+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-07-18T03:36:24.442+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=487M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T03:36:51.880+0000 I STORAGE  [initandlisten] WiredTiger message [1531885011:880816][1:0x7f1b1a7d2a00], txn-recover: Main recovery loop: starting at 4/5632
+2018-07-18T03:36:53.241+0000 I STORAGE  [initandlisten] WiredTiger message [1531885013:241298][1:0x7f1b1a7d2a00], txn-recover: Recovering log 4 through 5
+2018-07-18T03:36:53.939+0000 I STORAGE  [initandlisten] WiredTiger message [1531885013:939000][1:0x7f1b1a7d2a00], txn-recover: Recovering log 5 through 5
+2018-07-18T03:36:54.120+0000 I STORAGE  [initandlisten] WiredTiger message [1531885014:120496][1:0x7f1b1a7d2a00], txn-recover: Set global recovery timestamp: 0
+2018-07-18T03:36:54.166+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-18T03:36:54.245+0000 I CONTROL  [initandlisten] 
+2018-07-18T03:36:54.245+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-18T03:36:54.246+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-18T03:36:54.247+0000 I CONTROL  [initandlisten] 
+2018-07-18T03:36:54.279+0000 W SHARDING [initandlisten] Started with --shardsvr, but no shardIdentity document was found on disk in admin.system.version. This most likely means this server has not yet been added to a sharded cluster.
+2018-07-18T03:36:54.285+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongodb/data/db/shard_db_2/diagnostic.data'
+2018-07-18T03:36:54.288+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T03:36:54.288+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-18T03:36:54.288+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T03:41:54.289+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T03:41:54.289+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T03:46:54.289+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T03:46:54.289+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T03:51:54.289+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T03:51:54.289+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T03:56:54.290+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T03:56:54.290+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T04:01:54.291+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T04:01:54.291+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T04:05:17.658+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-07-18T04:05:17.659+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-18T04:05:17.659+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-18T04:05:17.660+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2018-07-18T04:05:17.661+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-07-18T04:05:17.676+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-07-18T04:05:17.717+0000 I STORAGE  [signalProcessingThread] Downgrading WiredTiger datafiles.
+2018-07-18T04:05:49.868+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T04:05:49.888+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=83ec52a0c88c
+2018-07-18T04:05:49.889+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T04:05:49.892+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T04:05:49.893+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T04:05:49.894+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T04:05:49.895+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T04:05:49.895+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T04:05:49.896+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T04:05:49.896+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T04:05:49.896+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T04:05:49.897+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T04:05:49.900+0000 W STORAGE  [initandlisten] Detected unclean shutdown - mongodb/data/db/shard_db_2/mongod.lock is not empty.
+2018-07-18T04:05:49.903+0000 I STORAGE  [initandlisten] Detected data files in mongodb/data/db/shard_db_2 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-18T04:05:49.906+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-07-18T04:05:49.907+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=487M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T04:06:12.620+0000 I STORAGE  [initandlisten] WiredTiger message [1531886772:620515][1:0x7f77ffb1da00], txn-recover: Main recovery loop: starting at 5/10752
+2018-07-18T04:06:15.016+0000 I STORAGE  [initandlisten] WiredTiger message [1531886775:16260][1:0x7f77ffb1da00], txn-recover: Recovering log 5 through 7
+2018-07-18T04:06:15.720+0000 I STORAGE  [initandlisten] WiredTiger message [1531886775:720463][1:0x7f77ffb1da00], txn-recover: Recovering log 6 through 7
+2018-07-18T04:06:16.485+0000 I STORAGE  [initandlisten] WiredTiger message [1531886776:485275][1:0x7f77ffb1da00], txn-recover: Recovering log 7 through 7
+2018-07-18T04:06:16.633+0000 I STORAGE  [initandlisten] WiredTiger message [1531886776:633801][1:0x7f77ffb1da00], txn-recover: Set global recovery timestamp: 0
+2018-07-18T04:06:16.685+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-18T04:06:16.741+0000 I CONTROL  [initandlisten] 
+2018-07-18T04:06:16.742+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-18T04:06:16.744+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-18T04:06:16.745+0000 I CONTROL  [initandlisten] 
+2018-07-18T04:06:16.778+0000 W SHARDING [initandlisten] Started with --shardsvr, but no shardIdentity document was found on disk in admin.system.version. This most likely means this server has not yet been added to a sharded cluster.
+2018-07-18T04:06:16.798+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongodb/data/db/shard_db_2/diagnostic.data'
+2018-07-18T04:06:16.800+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-18T04:06:16.800+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T04:06:16.800+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T04:06:40.536+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-07-18T04:06:40.537+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-18T04:06:40.539+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-18T04:06:40.542+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2018-07-18T04:06:40.544+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-07-18T04:06:40.558+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-07-18T04:06:40.672+0000 I STORAGE  [signalProcessingThread] Downgrading WiredTiger datafiles.
+2018-07-18T04:10:21.021+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T04:10:21.046+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=6603615a9767
+2018-07-18T04:10:21.046+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T04:10:21.047+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T04:10:21.048+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T04:10:21.048+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T04:10:21.048+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T04:10:21.049+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T04:10:21.049+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T04:10:21.050+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T04:10:21.050+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T04:10:21.051+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T04:10:21.057+0000 W STORAGE  [initandlisten] Detected unclean shutdown - mongodb/data/db/shard_db_2/mongod.lock is not empty.
+2018-07-18T04:10:21.061+0000 I STORAGE  [initandlisten] Detected data files in mongodb/data/db/shard_db_2 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-18T04:10:21.064+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-07-18T04:10:21.070+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=487M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T04:10:37.299+0000 I STORAGE  [initandlisten] WiredTiger message [1531887037:299352][1:0x7f93f074fa00], txn-recover: Main recovery loop: starting at 7/5632
+2018-07-18T04:10:38.423+0000 I STORAGE  [initandlisten] WiredTiger message [1531887038:423396][1:0x7f93f074fa00], txn-recover: Recovering log 7 through 8
+2018-07-18T04:10:39.922+0000 I STORAGE  [initandlisten] WiredTiger message [1531887039:922234][1:0x7f93f074fa00], txn-recover: Recovering log 8 through 8
+2018-07-18T04:10:40.249+0000 I STORAGE  [initandlisten] WiredTiger message [1531887040:249040][1:0x7f93f074fa00], txn-recover: Set global recovery timestamp: 0
+2018-07-18T04:10:40.536+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-18T04:10:40.736+0000 I CONTROL  [initandlisten] 
+2018-07-18T04:10:40.738+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-18T04:10:40.740+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-18T04:10:40.744+0000 I CONTROL  [initandlisten] 
+2018-07-18T04:10:40.831+0000 W SHARDING [initandlisten] Started with --shardsvr, but no shardIdentity document was found on disk in admin.system.version. This most likely means this server has not yet been added to a sharded cluster.
+2018-07-18T04:10:40.864+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongodb/data/db/shard_db_2/diagnostic.data'
+2018-07-18T04:10:40.871+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-18T04:10:40.873+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T04:10:40.875+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T04:15:40.873+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T04:15:40.876+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T04:18:52.918+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-07-18T04:18:52.922+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-18T04:18:52.922+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-18T04:18:52.923+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2018-07-18T04:18:52.924+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-07-18T04:18:52.947+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-07-18T04:18:53.048+0000 I STORAGE  [signalProcessingThread] Downgrading WiredTiger datafiles.
+2018-07-18T04:19:08.831+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-07-18T04:19:08.954+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=mongodb/data/db/shard_db_2 64-bit host=4ac68f2d6a22
+2018-07-18T04:19:08.956+0000 I CONTROL  [initandlisten] db version v4.0.0
+2018-07-18T04:19:08.959+0000 I CONTROL  [initandlisten] git version: 3b07af3d4f471ae89e8186d33bbb1d5259597d51
+2018-07-18T04:19:08.961+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-07-18T04:19:08.964+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-07-18T04:19:08.979+0000 I CONTROL  [initandlisten] modules: none
+2018-07-18T04:19:08.981+0000 I CONTROL  [initandlisten] build environment:
+2018-07-18T04:19:08.982+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2018-07-18T04:19:08.987+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-18T04:19:08.989+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-18T04:19:08.990+0000 I CONTROL  [initandlisten] options: { config: "/mongodb/config/shardConf2.config", net: { bindIp: "127.0.0.1", bindIpAll: true, port: 27017 }, processManagement: { timeZoneInfo: "/usr/share/zoneinfo" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "mongodb/data/db/shard_db_2", journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "mongodb/data/logs/shard_db_2.log" } }
+2018-07-18T04:19:09.003+0000 W STORAGE  [initandlisten] Detected unclean shutdown - mongodb/data/db/shard_db_2/mongod.lock is not empty.
+2018-07-18T04:19:09.013+0000 I STORAGE  [initandlisten] Detected data files in mongodb/data/db/shard_db_2 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-18T04:19:09.024+0000 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-07-18T04:19:09.027+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=487M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-07-18T04:19:29.652+0000 I STORAGE  [initandlisten] WiredTiger message [1531887569:652420][1:0x7feeed5f6a00], txn-recover: Main recovery loop: starting at 8/8576
+2018-07-18T04:19:31.008+0000 I STORAGE  [initandlisten] WiredTiger message [1531887571:8625][1:0x7feeed5f6a00], txn-recover: Recovering log 8 through 9
+2018-07-18T04:19:32.460+0000 I STORAGE  [initandlisten] WiredTiger message [1531887572:460031][1:0x7feeed5f6a00], txn-recover: Recovering log 9 through 9
+2018-07-18T04:19:32.620+0000 I STORAGE  [initandlisten] WiredTiger message [1531887572:620129][1:0x7feeed5f6a00], txn-recover: Set global recovery timestamp: 0
+2018-07-18T04:19:32.649+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-07-18T04:19:32.707+0000 I CONTROL  [initandlisten] 
+2018-07-18T04:19:32.708+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-18T04:19:32.708+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-18T04:19:32.709+0000 I CONTROL  [initandlisten] 
+2018-07-18T04:19:32.747+0000 W SHARDING [initandlisten] Started with --shardsvr, but no shardIdentity document was found on disk in admin.system.version. This most likely means this server has not yet been added to a sharded cluster.
+2018-07-18T04:19:32.756+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'mongodb/data/db/shard_db_2/diagnostic.data'
+2018-07-18T04:19:32.762+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-07-18T04:19:32.762+0000 I CONTROL  [LogicalSessionCacheReap] Sessions collection is not set up; waiting until next sessions reap interval: sharding state is not yet initialized
+2018-07-18T04:19:32.762+0000 I CONTROL  [LogicalSessionCacheRefresh] Sessions collection is not set up; waiting until next sessions refresh interval: sharding state is not yet initialized
+2018-07-18T04:22:16.214+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2018-07-18T04:22:16.217+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-07-18T04:22:16.217+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-07-18T04:22:16.219+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2018-07-18T04:22:16.221+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-07-18T04:22:16.228+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-07-18T04:22:16.266+0000 I STORAGE  [signalProcessingThread] Downgrading WiredTiger datafiles.
