@@ -1,10 +1,11 @@
 rs.initiate(
 {
-  _id: "shardConfigs",
+  _id: "config",
   configsvr:true,
   members: [
-    {_id: 0, host: "mongoConfig1:27017"},
-    {_id: 1, host: "mongoConfig2:27017"}
+    {_id: 0, host: "mongocfg1:27023"},
+    {_id: 1, host: "mongocfg2:27024"},
+    {_id: 2, host: "mongocfg3:27025"}
   ]
 }
 )

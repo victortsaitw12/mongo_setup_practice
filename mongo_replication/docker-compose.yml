@@ -3,31 +3,42 @@ services:
   mongorepl1:
     container_name: mongorepl1
     image: mongo:latest
-    command: mongod --replSet replServer --dbpath /data/db --port 27017 --bind_ip_all
+    command: mongod --config /etc/mongod.conf
     environment:
       TERM: xterm
     ports:
       - 27017:27017
     volumes:
+      - ./log/mongorep1:/var/log
+      - ./config/mongorep1/mongod.conf:/etc/mongod.conf
+      - ./data/mongorep1:/data/db
       - ./scripts:/scripts
+
   mongorepl2:
     container_name: mongorepl2
     image: mongo:latest
-    command: mongod --replSet replServer --dbpath /data/db --port 27018 --bind_ip_all
+    command: mongod --config /etc/mongod.conf
     environment:
       TERM: xterm
     ports:
       - 27018:27018
     volumes:
+      - ./log/mongorep2:/var/log
+      - ./config/mongorep2/mongod.conf:/etc/mongod.conf
+      - ./data/mongorep2:/data/db
       - ./scripts:/scripts
+
   mongorepl3:
     container_name: mongorepl3
     image: mongo:latest
-    command: mongod --replSet replServer --dbpath /data/db --port 27019 --bind_ip_all
+    command: mongod --config /etc/mongod.conf
     environment:
       TERM: xterm
     ports:
       - 27019:27019
     volumes:
+      - ./log/mongorep3:/var/log
+      - ./config/mongorep3/mongod.conf:/etc/mongod.conf
+      - ./data/mongorep3:/data/db
       - ./scripts:/scripts
     

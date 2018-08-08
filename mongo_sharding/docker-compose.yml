@@ -1,64 +1,127 @@
 version: '2'
 services:
-  mongoConfig1:
-    container_name: mongoConfig1
+  mongoshard1r1:
+    container_name: mongoshard1r1
     image: mongo:latest
-    command: mongod -f /mongodb/config/replConf1.config
-    environment:
-      TERM: xterm
+    command: mongod --config /etc/mongod.conf
+    ports:
+      - 27017:27017
     volumes:
-      - ./mongodb:/mongodb
+      - ./log/mongoshard1r1:/var/log
+      - ./config/mongoshard1r1/mongod.conf:/etc/mongod.conf
+      - ./data/mongoshard1r1:/data/db
       - ./scripts:/scripts
 
-  mongoConfig2:
-    container_name: mongoConfig2
+  mongoshard1r2:
+    container_name: mongoshard1r2
     image: mongo:latest
-    command: mongod -f /mongodb/config/replConf2.config
-    environment:
-      TERM: xterm
+    command: mongod --config /etc/mongod.conf
+    ports:
+      - 27018:27018
     volumes:
-      - ./mongodb:/mongodb
+      - ./log/mongoshard1r2:/var/log
+      - ./config/mongoshard1r2/mongod.conf:/etc/mongod.conf
+      - ./data/mongoshard1r2:/data/db
       - ./scripts:/scripts
 
-  mongoShard1:
-    container_name: mongoShard1
+  mongoshard1r3:
+    container_name: mongoshard1r3
     image: mongo:latest
-    command: mongod -f /mongodb/config/shardConf1.config
-    environment:
-      TERM: xterm
+    command: mongod --config /etc/mongod.conf
+    ports:
+      - 27019:27019
     volumes:
-      - ./mongodb:/mongodb
+      - ./log/mongoshard1r3:/var/log
+      - ./config/mongoshard1r3/mongod.conf:/etc/mongod.conf
+      - ./data/mongoshard1r3:/data/db
       - ./scripts:/scripts
 
-  mongoShard2:
-    container_name: mongoShard2
+  mongoshard2r1:
+    container_name: mongoshard2r1
     image: mongo:latest
-    command: mongod -f /mongodb/config/shardConf2.config
-    environment:
-      TERM: xterm
+    command: mongod --config /etc/mongod.conf
+    ports:
+      - 27020:27020
     volumes:
-      - ./mongodb:/mongodb
+      - ./log/mongoshard2r1:/var/log
+      - ./config/mongoshard2r1/mongod.conf:/etc/mongod.conf
+      - ./data/mongoshard2r1:/data/db
       - ./scripts:/scripts
 
-  mongoShard3:
-    container_name: mongoShard3
+  mongoshard2r2:
+    container_name: mongoshard2r2
     image: mongo:latest
-    command: mongod -f /mongodb/config/shardConf3.config
-    environment:
-      TERM: xterm
+    command: mongod --config /etc/mongod.conf
+    ports:
+      - 27021:27021
     volumes:
-      - ./mongodb:/mongodb
+      - ./log/mongoshard2r2:/var/log
+      - ./config/mongoshard2r2/mongod.conf:/etc/mongod.conf
+      - ./data/mongoshard2r2:/data/db
+      - ./scripts:/scripts
+
+  mongoshard2r3:
+    container_name: mongoshard2r3
+    image: mongo:latest
+    command: mongod --config /etc/mongod.conf
+    ports:
+      - 27022:27022
+    volumes:
+      - ./log/mongoshard2r3:/var/log
+      - ./config/mongoshard2r3/mongod.conf:/etc/mongod.conf
+      - ./data/mongoshard2r3:/data/db
+      - ./scripts:/scripts
+    
+  mongocfg1:
+    container_name: mongocfg1
+    image: mongo:latest
+    command: mongod --config /etc/mongod.conf
+    ports:
+      - 27023:27023
+    volumes:
+      - ./log/mongocfg1:/var/log
+      - ./config/mongocfg1/mongod.conf:/etc/mongod.conf
+      - ./data/mongocfg1:/data/db
+      - ./scripts:/scripts
+
+  mongocfg2:
+    container_name: mongocfg2
+    image: mongo:latest
+    command: mongod --config /etc/mongod.conf
+    ports:
+      - 27024:27024
+    volumes:
+      - ./log/mongocfg2:/var/log
+      - ./config/mongocfg2/mongod.conf:/etc/mongod.conf
+      - ./data/mongocfg2:/data/db
+      - ./scripts:/scripts
+
+  mongocfg3:
+    container_name: mongocfg3
+    image: mongo:latest
+    command: mongod --config /etc/mongod.conf
+    ports:
+      - 27025:27025
+    volumes:
+      - ./log/mongocfg3:/var/log
+      - ./config/mongocfg3/mongod.conf:/etc/mongod.conf
+      - ./data/mongocfg3:/data/db
       - ./scripts:/scripts
 
   router:
-    container_name: router 
+    container_name: router
     image: mongo:latest
-    command: mongos -f /mongodb/config/router.config
-    volumes:
-      - ./mongodb:/mongodb
-      - ./scripts:/scripts
-    environment:
-      TERM: xterm
+    command: mongos --config /etc/mongod.conf
     depends_on:
-      - mongoConfig1
-      - mongoConfig2
+      - mongocfg1
+      - mongocfg2
+      - mongocfg3
+    volumes:
+      - ./log/router:/var/log
+      - ./config/router/mongod.conf:/etc/mongod.conf
+      - ./data/router:/data/db
+      - ./scripts:/scripts
+    ports:
+      - 27026:27026
+    expose:
+      - 27026
